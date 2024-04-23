@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bjqa4mcsrd8f0"]
+[gd_scene load_steps=4 format=3 uid="uid://bjqa4mcsrd8f0"]
 
 [ext_resource type="PackedScene" uid="uid://cfv20ifmf5hsa" path="res://snake_head.tscn" id="1_s2ttc"]
 [ext_resource type="PackedScene" uid="uid://veriqu4md2e8" path="res://snake_body.tscn" id="2_p16gc"]
+[ext_resource type="PackedScene" uid="uid://ccy406atbk3uo" path="res://treat.tscn" id="3_jdy63"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -22,3 +23,6 @@ position = Vector2(440, 307)
 
 [node name="Body5" parent="." instance=ExtResource("2_p16gc")]
 position = Vector2(410, 307)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_jdy63")]
+position = Vector2(720, 468)
