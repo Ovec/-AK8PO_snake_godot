@@ -6,6 +6,13 @@
 
 [node name="Node2D" type="Node2D"]
 
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -46.0
+offset_top = -42.0
+offset_right = 1236.0
+offset_bottom = 1239.0
+color = Color(0.631373, 0.631373, 0.631373, 1)
+
 [node name="Head" parent="." instance=ExtResource("1_s2ttc")]
 position = Vector2(560, 307)
 
