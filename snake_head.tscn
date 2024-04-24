@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cfv20ifmf5hsa"]
+[gd_scene load_steps=4 format=3 uid="uid://cfv20ifmf5hsa"]
 
+[ext_resource type="Script" path="res://snake_head.cs" id="1_102fb"]
 [ext_resource type="Texture2D" uid="uid://j26810is04oy" path="res://graphics/snake/head/head.png" id="1_r775o"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7oemu"]
 size = Vector2(30, 29.75)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_102fb")
 
 [node name="Head" type="Sprite2D" parent="."]
 texture = ExtResource("1_r775o")
